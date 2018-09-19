@@ -1,0 +1,19 @@
+ <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Select List</h1>
+            <div class="alert alert-success"> <strong>List</strong>   {{ a }}!
+              <div class="alert alert-success"> <strong>total</strong>   {{ b }}!
+            </div>
+            <form  action="p1" method="post" >
+              <div id="areas" class="nicebox">
+                  <input id='a' name="a" value={{ a }}>
+                  <input id='b' name="b" type="hidden" value={{ b }} >
+                  <input id='c' name="c" type="hidden" value=1>
+
+                  <button type="submit" >view</button>
+              </div>
+            </form>
+        </div>
+    </div>
+</div>
